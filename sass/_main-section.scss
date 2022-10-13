@@ -126,3 +126,14 @@
     }
   }
 }
+
+@media screen and (min-width: 360px) {
+  .container__main__opinion-card {
+    height: 210px;
+  }
+}
+@media screen and (min-width: 375px) {
+  .container__main__opinion-card {
+    height: 190px;
+  }
+}
