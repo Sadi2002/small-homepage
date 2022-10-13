@@ -162,6 +162,11 @@
       width: 58%;
       margin: 0;
       height: 4rem;
+      font-size: 2rem;
+
+      &::placeholder {
+        font-size: 1.5rem;
+      }
     }
 
     &__btn {
@@ -194,7 +199,7 @@
       height: 5.5rem;
 
       &::placeholder {
-        font-size: 1.5rem;
+        font-size: 2rem;
       }
     }
 

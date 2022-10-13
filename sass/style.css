@@ -332,6 +332,19 @@ body {
     width: 58%;
     margin: 0;
     height: 4rem;
+    font-size: 2rem;
+  }
+  .container__files__text-input::-webkit-input-placeholder {
+    font-size: 1.5rem;
+  }
+  .container__files__text-input:-ms-input-placeholder {
+    font-size: 1.5rem;
+  }
+  .container__files__text-input::-ms-input-placeholder {
+    font-size: 1.5rem;
+  }
+  .container__files__text-input::placeholder {
+    font-size: 1.5rem;
   }
   .container__files__btn {
     width: 30%;
@@ -359,16 +372,16 @@ body {
     height: 5.5rem;
   }
   .container__files__text-input::-webkit-input-placeholder {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .container__files__text-input:-ms-input-placeholder {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .container__files__text-input::-ms-input-placeholder {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .container__files__text-input::placeholder {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .container__files__btn {
     font-size: 1.5rem;
@@ -664,10 +677,29 @@ body {
     width: 44%;
   }
   .container__main__img {
-    width: 36rem;
+    width: 40rem;
   }
   .container__main__arrow {
     width: 2rem;
+  }
+  .container__main__text {
+    font-size: 2rem;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container__main__img {
+    width: 55rem;
+  }
+  .container__main__box {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container__main__text-box {
+    width: 50%;
   }
 }
 
@@ -680,7 +712,7 @@ body {
   }
   .container__main__text {
     font-size: 2rem;
-    width: 65%;
+    width: 55%;
   }
   .container__main__text-box {
     width: 60%;

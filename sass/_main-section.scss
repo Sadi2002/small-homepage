@@ -190,13 +190,32 @@
   }
 
   .container__main__img {
-    width: 36rem;
+    width: 40rem;
   }
 
   .container__main__arrow {
     width: 2rem;
   }
+
+  .container__main__text {
+    font-size: 2rem;
+    width: 70%;
+  }
 }
+@media screen and (min-width: 1440px) {
+  .container__main__img {
+    width: 55rem;
+  }
+  .container__main__box {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .container__main__text-box {
+    width: 50%;
+  }
+}
+
 @media screen and (min-width: 1920px) {
   .container__main__box {
     width: 100%;
@@ -208,7 +227,7 @@
 
   .container__main__text {
     font-size: 2rem;
-    width: 65%;
+    width: 55%;
   }
   .container__main__text-box {
     width: 60%;
