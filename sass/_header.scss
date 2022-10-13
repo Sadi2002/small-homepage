@@ -27,6 +27,22 @@
         color: $Desaturated-Blue;
         font-family: "Raleway", sans-serif;
         font-weight: 400;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 2px;
+          background-color: $Desaturated-Blue;
+          bottom: -5px;
+          left: 0;
+          transition: all 0.3s;
+        }
+
+        &:hover::after {
+          width: 100%;
+        }
       }
     }
   }
