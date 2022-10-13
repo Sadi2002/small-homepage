@@ -1,0 +1,60 @@
+.container__files {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2.5rem 2.5rem;
+
+  &__img {
+    width: 30rem;
+    margin-bottom: 3rem;
+  }
+
+  &__text-box {
+    width: 100%;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+  }
+
+  &__header {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 4rem;
+    color: $Very-Dark-Blue;
+    margin-bottom: 2.5rem;
+  }
+
+  &__about-files {
+    width: 90%;
+    margin: 0 auto;
+    color: $Very-Dark-Blue;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  &__text-input {
+    width: 90%;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid $Desaturated-Blue;
+    padding-left: 2rem;
+    margin-bottom: 1.5rem;
+
+    &::placeholder {
+      color: $Light-Gray;
+    }
+  }
+
+  &__btn {
+    width: 90%;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: $Bright-Blue;
+    color: $Light-Grayish-Blue;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+}
