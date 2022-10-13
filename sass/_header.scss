@@ -30,3 +30,44 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) {
+  .container__header {
+    padding: 3rem;
+  }
+
+  .container__nav__list {
+    gap: 4rem;
+  }
+  .container__nav__logo {
+    width: 11rem;
+  }
+
+  .container__nav__list__link {
+    font-size: 1.9rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container__header {
+    padding: 3rem 6rem;
+  }
+  .container__nav__logo {
+    width: 13rem;
+  }
+
+  .container__nav__list__link {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container__header {
+    padding: 5rem 10rem;
+  }
+  .container__nav__logo {
+    width: 15rem;
+  }
+
+  .container__nav__list__link {
+    font-size: 2.5rem;
+  }
+}
