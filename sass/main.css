@@ -14,6 +14,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
+  font-weight: 400;
 }
 
 .container {
@@ -58,6 +59,21 @@ body {
   font-weight: 400;
 }
 
+@media screen and (min-width: 260px) {
+  .container__header {
+    padding: 2rem 0.5rem 1rem 1rem;
+  }
+  .container__nav__logo {
+    width: 6rem;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .container__header {
+    padding: 2.5rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container__header {
     padding: 3rem;
@@ -69,19 +85,26 @@ body {
     width: 11rem;
   }
   .container__nav__list__link {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container__header {
     padding: 3rem 6rem;
+    margin-bottom: 7rem;
   }
   .container__nav__logo {
     width: 13rem;
   }
   .container__nav__list__link {
     font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container__header {
+    margin-bottom: 9rem;
   }
 }
 
@@ -124,12 +147,22 @@ body {
   width: 100%;
   text-align: center;
   font-family: "Raleway", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .container__files__header {
   font-weight: 700;
   font-size: 2.4rem;
-  line-height: 4rem;
+  line-height: 3.5rem;
   color: #070439;
   margin-bottom: 2.5rem;
 }
@@ -177,5 +210,181 @@ body {
   color: #f6f6fe;
   font-weight: bold;
   font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+
+.container__files__search {
+  width: 100%;
+}
+
+@media screen and (min-width: 412px) {
+  .container__files__header {
+    font-size: 2.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container__files {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    padding: 3rem;
+    gap: 2rem;
+  }
+  .container__files__img {
+    width: 33rem;
+    margin: 0;
+  }
+  .container__files__text-box {
+    text-align: left;
+  }
+  .container__files__header {
+    margin-bottom: 1rem;
+    line-height: 3.5rem;
+    font-size: 2.7rem;
+  }
+  .container__files__about-files {
+    font-size: 1.149rem;
+    line-height: 1.6rem;
+    margin: 0 0 2rem 0;
+  }
+  .container__files__search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1.5rem;
+  }
+  .container__files__text-input {
+    width: 53%;
+    height: 3.5rem;
+    margin: 0;
+  }
+  .container__files__btn {
+    width: 35%;
+    height: 3.5rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .container__files__header {
+    font-size: 2.9rem;
+    line-height: 4rem;
+  }
+}
+
+@media screen and (min-width: 912px) {
+  .container__files__header {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .container__files__img {
+    width: 38rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container__files {
+    padding: 0 5rem;
+    gap: 3rem;
+  }
+  .container__files__img {
+    width: 44rem;
+  }
+  .container__files__header {
+    line-height: 5rem;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  .container__files__about-files {
+    width: 80%;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .container__files__text-input {
+    width: 58%;
+    margin: 0;
+    height: 4rem;
+  }
+  .container__files__btn {
+    width: 30%;
+    font-size: 1.3rem;
+    height: 4rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container__files__img {
+    width: 52rem;
+  }
+  .container__files__header {
+    line-height: 7.5rem;
+    font-size: 6rem;
+    margin-bottom: 3rem;
+  }
+  .container__files__about-files {
+    width: 80%;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    margin-bottom: 3rem;
+  }
+  .container__files__text-input {
+    height: 5.5rem;
+  }
+  .container__files__btn {
+    font-size: 1.5rem;
+    height: 5.5rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container__files {
+    padding: 0 5rem;
+    gap: 3rem;
+  }
+  .container__files__img {
+    width: 70rem;
+  }
+  .container__files__header {
+    line-height: 7.5rem;
+    font-size: 6.5rem;
+    width: 80%;
+  }
+  .container__files__about-files {
+    width: 80%;
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    margin-bottom: 3rem;
+  }
+  .container__files__text-input {
+    width: 58%;
+    margin: 0;
+    height: 6.5rem;
+  }
+  .container__files__text-input::-webkit-input-placeholder {
+    font-size: 2rem;
+  }
+  .container__files__text-input:-ms-input-placeholder {
+    font-size: 2rem;
+  }
+  .container__files__text-input::-ms-input-placeholder {
+    font-size: 2rem;
+  }
+  .container__files__text-input::placeholder {
+    font-size: 2rem;
+  }
+  .container__files__btn {
+    width: 30%;
+    font-size: 2rem;
+    height: 6.5rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
