@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+}
+
+.container__header {
+  width: 100%;
+  padding: 2.5rem;
+}
+
+.container__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__nav__logo {
+  width: 8rem;
+}
+
+.container__nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.container__nav__list__link {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #585989;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+/*# sourceMappingURL=main.css.map */
