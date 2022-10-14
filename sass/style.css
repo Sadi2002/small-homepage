@@ -189,8 +189,6 @@ body {
   width: 30rem;
   margin-bottom: 3rem;
   opacity: 0;
-  -webkit-transform: translateX(150px);
-          transform: translateX(150px);
   -webkit-animation: toLeft 2s 1s forwards;
           animation: toLeft 2s 1s forwards;
 }
