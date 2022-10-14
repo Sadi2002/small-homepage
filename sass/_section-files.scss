@@ -10,6 +10,20 @@
   &__img {
     width: 30rem;
     margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateX(150px);
+    animation: toLeft 2s 1s forwards;
+  }
+
+  @keyframes toLeft {
+    from {
+      opacity: 0;
+      transform: translateX(150px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   &__text-box {
@@ -19,6 +33,20 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    opacity: 0;
+    transform: translateX(-150px);
+    animation: toRight 1.5s 0.5s forwards;
+  }
+
+  @keyframes toRight {
+    from {
+      opacity: 0;
+      transform: translateX(-150px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   &__header {

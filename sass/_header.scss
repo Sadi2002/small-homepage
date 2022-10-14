@@ -5,6 +5,18 @@
     width: 100%;
     padding: 2.5rem;
     margin-bottom: 5.5rem;
+    animation: down 1.5s forwards;
+  }
+
+  @keyframes down {
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   &__nav {

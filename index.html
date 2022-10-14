@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./sass/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script
       src="https://kit.fontawesome.com/f840a980ae.js"
       crossorigin="anonymous"
@@ -85,8 +86,14 @@
             src="./images/illustration-2.svg"
             alt="animowaniu ludzie w biurze ktorzy pokazuja swoje propozycje"
             class="container__main__img"
+            data-aos="fade-left"
+            data-aos-duration="1500"
           />
-          <div class="container__main__text-box">
+          <div
+            class="container__main__text-box"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             <h4 class="container__main__header">
               Stay productive, wherever you are
             </h4>
@@ -134,7 +141,11 @@
         </div>
       </main>
       <section class="container__sign-up">
-        <div class="container__sign-up__text">
+        <div
+          class="container__sign-up__text"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <h3 class="container__sign-up__header">Get early access today</h3>
           <h3 class="container__sign-up__info">
             It only takes a minute to sign up and our free starter tier is
@@ -142,7 +153,11 @@
             would be happy to help you.
           </h3>
         </div>
-        <div class="container__sign-up__search">
+        <div
+          class="container__sign-up__search"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <input
             type="email"
             class="container__sign-up__email"
@@ -219,5 +234,9 @@
         </div>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
