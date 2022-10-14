@@ -753,4 +753,248 @@ body {
     width: 2.5rem;
   }
 }
+
+.container__sign-up {
+  width: 100%;
+  background-color: #585989;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+}
+
+.container__sign-up__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__sign-up__header {
+  color: #f6f6fe;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.container__sign-up__info {
+  text-align: center;
+  color: #f6f6fe;
+  font-size: 1.35rem;
+  line-height: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.container__sign-up__search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.container__sign-up__email {
+  height: 4rem;
+  width: 100%;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container__sign-up__email::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+.container__sign-up__email:-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+.container__sign-up__email::-ms-input-placeholder {
+  color: #bfbfbf;
+}
+
+.container__sign-up__email::placeholder {
+  color: #bfbfbf;
+}
+
+.container__sign-up__btn {
+  height: 4rem;
+  width: 100%;
+  border: none;
+  background-color: #3065f8;
+  color: #f6f6fe;
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .container__sign-up {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container__sign-up__text {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 90%;
+  }
+  .container__sign-up__header {
+    font-size: 2.5rem;
+  }
+  .container__sign-up__info {
+    text-align: left;
+    width: 70%;
+  }
+  .container__sign-up__search {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .container__sign-up__btn {
+    width: 50%;
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 912px) {
+  .container__sign-up__btn {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container__sign-up {
+    padding: 7.5rem;
+  }
+  .container__sign-up__email {
+    height: 5rem;
+  }
+  .container__sign-up__email::-webkit-input-placeholder {
+    font-size: 1.7rem;
+  }
+  .container__sign-up__email:-ms-input-placeholder {
+    font-size: 1.7rem;
+  }
+  .container__sign-up__email::-ms-input-placeholder {
+    font-size: 1.7rem;
+  }
+  .container__sign-up__email::placeholder {
+    font-size: 1.7rem;
+  }
+  .container__sign-up__btn {
+    height: 5rem;
+  }
+  .container__sign-up__header {
+    font-size: 3rem;
+  }
+  .container__sign-up__info {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container__sign-up__email {
+    height: 5.5rem;
+  }
+  .container__sign-up__email::-webkit-input-placeholder {
+    font-size: 1.7rem;
+  }
+  .container__sign-up__email:-ms-input-placeholder {
+    font-size: 1.7rem;
+  }
+  .container__sign-up__email::-ms-input-placeholder {
+    font-size: 1.7rem;
+  }
+  .container__sign-up__email::placeholder {
+    font-size: 1.7rem;
+  }
+  .container__sign-up__btn {
+    height: 5.5rem;
+  }
+  .container__sign-up__header {
+    font-size: 4rem;
+  }
+  .container__sign-up__info {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+  }
+  .container__sign-up__search {
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container__sign-up {
+    padding: 10rem;
+  }
+  .container__sign-up__email {
+    width: 90%;
+    height: 6rem;
+  }
+  .container__sign-up__email::-webkit-input-placeholder {
+    font-size: 2rem;
+  }
+  .container__sign-up__email:-ms-input-placeholder {
+    font-size: 2rem;
+  }
+  .container__sign-up__email::-ms-input-placeholder {
+    font-size: 2rem;
+  }
+  .container__sign-up__email::placeholder {
+    font-size: 2rem;
+  }
+  .container__sign-up__text {
+    width: 90%;
+  }
+  .container__sign-up__btn {
+    width: 30%;
+    height: 6rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  .container__sign-up__header {
+    font-size: 5.2rem;
+  }
+  .container__sign-up__info {
+    font-size: 2rem;
+    line-height: 3.3rem;
+  }
+  .container__sign-up__search {
+    gap: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
