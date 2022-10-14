@@ -60,12 +60,14 @@
             and co-workers.
           </p>
           <div class="container__files__search">
-            <input
-              type="email"
-              class="container__files__text-input"
-              placeholder="Enter your email"
-            />
-            <button class="container__files__btn">Get Started</button>
+            <form action="POST">
+              <input
+                type="email"
+                class="container__files__text-input"
+                placeholder="Enter your email"
+              />
+              <button class="container__files__btn">Get Started</button>
+            </form>
           </div>
         </div>
       </section>
@@ -143,12 +145,16 @@
           </h3>
         </div>
         <div class="container__sign-up__search">
-          <input
-            type="email"
-            class="container__sign-up__email"
-            placeholder="email@example.com"
-          />
-          <button class="container__sign-up__btn">Get Started For Free</button>
+          <form action="POST">
+            <input
+              type="email"
+              class="container__sign-up__email"
+              placeholder="email@example.com"
+            />
+            <button class="container__sign-up__btn">
+              Get Started For Free
+            </button>
+          </form>
         </div>
       </section>
       <footer class="container__footer">
