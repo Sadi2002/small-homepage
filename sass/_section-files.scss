@@ -103,6 +103,13 @@
   }
 }
 
+.form__files {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (min-width: 412px) {
   .container__files__header {
     font-size: 2.6rem;
@@ -153,6 +160,9 @@
       height: 3.5rem;
       font-size: 1.1rem;
     }
+  }
+  .form__files {
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 820px) {

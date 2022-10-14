@@ -68,6 +68,10 @@
   }
 }
 
+.form_sign-up {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .container__sign-up {
     flex-direction: row;
@@ -96,6 +100,10 @@
       padding: 1rem 2rem;
     }
   }
+
+  form {
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 912px) {
   .container__sign-up {
@@ -107,16 +115,6 @@
 @media screen and (min-width: 1200px) {
   .container__sign-up {
     padding: 7.5rem;
-    &__email {
-      height: 5rem;
-
-      &::placeholder {
-        font-size: 1.7rem;
-      }
-    }
-    &__btn {
-      height: 5rem;
-    }
 
     &__header {
       font-size: 3rem;
@@ -126,6 +124,14 @@
       font-size: 1.5rem;
       line-height: 2.5rem;
     }
+  }
+  .container__sign-up__email {
+    width: 80%;
+    height: 5rem;
+  }
+  .container__sign-up__btn {
+    width: 40%;
+    height: 5rem;
   }
 }
 @media screen and (min-width: 1440px) {
